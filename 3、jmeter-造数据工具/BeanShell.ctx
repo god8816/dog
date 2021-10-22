@@ -1,0 +1,16 @@
+import com.yst.jmeter.api.*;
+
+/**雪花ID*/
+Long getSnowFlakeID = NumUtil.getSnowFlakeID();
+vars.put("getSnowFlakeID",getSnowFlakeID);
+
+/**自增不重复ID*/
+Long getID = NumUtil.getID();
+vars.put("id",getID);
+
+/**0-1000随机数*/
+Long getID = NumUtil.randomNumInt(0,1000);
+vars.put("randomNumInt",randomNumInt);
+
+vars.put("xxx",123);
+
